@@ -374,7 +374,7 @@ class InterfazMaquinaTuring:
         self.configurar_interfaz()
         
     def configurar_interfaz(self):
-        # Marco principal con estilo tipo Teams
+        # Marco principal
         estilo = ttk.Style()
         estilo.theme_use('clam')
         estilo.configure('TFrame', background='#2D2D30')
